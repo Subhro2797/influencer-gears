@@ -1,0 +1,117 @@
+/* --Font style--- */
+@import url('https://fonts.googleapis.com/css2?family=Lobster+Two&family=Poppins:wght@400;500&family=Roboto+Condensed:ital,wght@1,300&family=Source+Sans+Pro&family=Ubuntu:ital@1&display=swap');
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+.headline{
+    font-size: 52px;
+}
+.header-section {
+    
+    font-weight: 700;
+    left: 8.33%;
+    right: 74.79%;
+    top: 2.63%;
+    bottom: 95.79%;
+    padding-left: 30px;
+}
+
+.container{
+    padding: 30px;
+}
+
+.button{
+    border: 1px solid khaki;
+    color: white;
+    background-color: #E02C6D;
+    text-decoration: none;
+    font-weight: 800;
+    padding: 10px 24px;
+    border-radius: 41px;
+    text-align: center;
+}
+.fa-long-arrow-alt-right{
+    width: 24px;
+    height: 24px;
+}
+
+.container-box{
+    display: flex;
+    
+    
+}
+.image-container{
+    background-image: url(images/Circle\ design.svg);
+    /* transform: rotate(360deg); */
+    transition: transform 3s ease-out 1s;
+}
+.image-container:hover{
+    transform: rotate(360deg);
+}
+
+.container {
+    width: 50%;
+}
+
+.section-title{
+    text-align: center;
+    font-weight: 600;
+}
+
+/* ----------------
+    gadjets styles
+------------------- */
+
+.gadjets .gadjet img{
+    width: 300px;
+    height: 256px;
+    align-items: center;
+}
+.stars{
+    color: orange;
+    outline-color: black;
+}
+.ratings{
+    
+    color: black;
+}
+
+.gadjet{
+    border: 1px solid white;
+    width: 329px;
+    height: 476px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+    padding-top:  17px;
+    padding-left: 14px;
+    padding-bottom: 17px;
+    
+    
+}
+.gadjets{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 30px;
+    justify-items: center;
+    
+    
+}
+.collections{
+    justify-content: space-evenly;
+}
+.icons{
+    align-self: center;
+    height: 30px;
+    width: 30px;
+}
+
+/* making it responsive */
+/* mobile devices */
+
+@media  screen and (max-width:688px){
+        .gadjets{
+            background-color: tomato;
+        }    
+}
